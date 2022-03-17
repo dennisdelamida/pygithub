@@ -1,0 +1,8 @@
+name: "gogithub" 
+description: "gogithub example"
+
+runs:
+  using: composite 
+  steps:
+  - run: python GridEmissionsData.py
+    shell: bash
