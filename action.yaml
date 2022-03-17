@@ -4,5 +4,5 @@ description: "gogithub example"
 runs:
   using: composite 
   steps:
-  - run: python GridEmissionsData.py
+  - run: python ${{ github.action_path }}/GridEmissionsData.py
     shell: bash
